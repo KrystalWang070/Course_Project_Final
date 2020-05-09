@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   bottom: 10;
+  border-style:solid none;
   width: 100%; /* Full width */
   display:inline-block;
   list-style-type: none;
@@ -31,6 +32,9 @@
   color: black;
 }
 
+.container {
+  padding: 0px;
+  }
 
 
 
