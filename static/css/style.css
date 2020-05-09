@@ -32,8 +32,10 @@
 
 
 /* Bootstrap custom */
-.no-padding {
-  padding: 0;
+.container{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
 }
 
 
