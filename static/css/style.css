@@ -8,7 +8,6 @@
   top: 0; /* Position the navbar at the top of the page */
   left: 0;
   right: 0;
-  bottom: 10;
   width: 100%; /* Full width */
   display:inline-block;
   list-style-type: none;
@@ -31,6 +30,7 @@
   color: black;
 }
 
+/* Bootstrap custom */
 .container{
   padding-left: 0rem;
   padding-right: 0rem;
@@ -38,7 +38,7 @@
 }
 
 div.ex1 {
-  margin-top: 70px;
+  margin-top: 25px;
   left: 0px;
   right: 0px;
   background: linear-gradient(to bottom right, #581845, #900C3F, #C70039, #FF5733, #FFC300);
@@ -50,7 +50,7 @@ div.ex1 {
 
 
 body {
-  margin-top: 40px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,20 +133,6 @@ a {
   padding-bottom: 40%;
 }
 
-
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}  
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
-}
-
-
-img { max-width: 100%; }
 /** Layered Animation **/
 /* 
 .layered-animations {
@@ -193,17 +179,4 @@ img { max-width: 100%; }
   margin-top: -16px;
   stroke: currentColor;
   fill: currentColor;
-}
-
-@media (max-width: 767px) {
-  .navbar-fixed-top {
-      position: relative;
-      top: auto;
-  }
-  .navbar-collapse {
-      max-height: none;
-  }
-  body {
-      margin: 0;
-  }
 }
