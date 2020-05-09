@@ -12,7 +12,17 @@
   display:inline-block;
   list-style-type: none;
 
+
+  
 }
+
+
+.container{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
 
 /* Links inside the navbar */
 .navbar a {
@@ -31,14 +41,8 @@
 }
 
 
-/* Bootstrap custom */
-.no-padding {
-  padding: 0;
-}
-
-
 div.ex1 {
-  margin-top: 25px;
+  margin-top: 70px;
   left: 0px;
   right: 0px;
   background: linear-gradient(to bottom right, #581845, #900C3F, #C70039, #FF5733, #FFC300);
@@ -50,7 +54,7 @@ div.ex1 {
 
 
 body {
-  margin-top: 10px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,6 +137,20 @@ a {
   padding-bottom: 40%;
 }
 
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+
+img { max-width: 100%; }
 /** Layered Animation **/
 /* 
 .layered-animations {
@@ -179,4 +197,17 @@ a {
   margin-top: -16px;
   stroke: currentColor;
   fill: currentColor;
+}
+
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+      position: relative;
+      top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
+  }
 }
