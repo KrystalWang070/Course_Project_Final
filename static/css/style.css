@@ -31,9 +31,11 @@
   color: black;
 }
 
-.container-fluid{
+.container{
+  padding-left: 0rem;
+  padding-right: 0rem;
   overflow: hidden;
-  }
+}
 
 div.ex1 {
   margin-top: 70px;
