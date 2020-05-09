@@ -31,7 +31,12 @@
 }
 
 
-
+/* Bootstrap custom */
+.container{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
 div.ex1 {
   margin-top: 25px;
   left: 0px;
